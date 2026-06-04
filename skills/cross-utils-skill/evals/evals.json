@@ -1,0 +1,53 @@
+{
+  "skill_name": "cross-utils-skill",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我在 Taro 项目里要判断是不是微信小程序环境，并且想知道当前是 production 还是 stage，用哪个工具函数最合适？",
+      "expected_output": "命中 getIsWechat 和 getENV，给出导入方式与最小示例，说明返回值含义。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "页面要做跨端跳转，还要自动带一些埋点参数，cross-utils 里有现成方法吗？",
+      "expected_output": "命中 goNewPage，并说明 options.sendTrack、track 的常见用法。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我需要获取当前用户的城市信息，包括定位城市和选择城市，推荐哪些函数？",
+      "expected_output": "命中 getAsyncCityInfo 和 getCityInfoSync，给出导入和示例。",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "如何获取当前用户的登录信息和手机号？",
+      "expected_output": "命中 getUserInfo 和 getMaskPhone，说明一个是异步一个是同步获取脱敏手机号。",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "我想知道当前运行的是什么平台，是微信小程序还是H5还是android、ios？",
+      "expected_output": "命中 getPlatform 和 getCluePlatform，说明平台检测相关函数。",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "如何进行支付相关的操作？",
+      "expected_output": "命中 getPayModeInfo、paymentStrategy 等支付相关函数，给出支付流程概述。",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "需要上传图片并进行格式优化，有什么工具函数？",
+      "expected_output": "命中 formatImageUrl，说明图片处理相关功能。",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "我想在不同平台上显示不同的价格格式，比如千分位分隔符和小数位数？",
+      "expected_output": "命中 formatPrice、autoFormatPrice，说明金额格式化相关函数。",
+      "files": []
+    }
+  ]
+}
