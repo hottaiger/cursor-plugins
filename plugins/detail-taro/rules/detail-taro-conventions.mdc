@@ -1,0 +1,36 @@
+---
+description: detail-taro3 商详页开发基线：目录落点、命名、多端差异与改动范围约束。
+alwaysApply: true
+---
+
+# detail-taro 商详开发基线
+
+在 detail-taro3 仓库编写或修改商详相关代码时遵守：
+
+## 技术栈
+
+- Taro3 + React + TypeScript + Less
+- 目标端：RN、H5、微信小程序；平台差异用 `TARO_ENV` 分支或已有兼容封装，禁止臆造 API。
+
+## 目录落点
+
+- 页面级：`src/pages/index/components/`、`hooks/`、`service/`、`store/`、`utils/`
+- 业务 feature：`src/pages/index/features/`，一级仅 `Common`、`FuelVehicle`、`NewEnergy`
+- 二级业务（仅 `Common/` 下）：`CheckReport`、`Finance`；新增一级/二级目录须先与用户确认
+- 跨页通用：`src/components/`
+
+## 命名
+
+- 组件目录 PascalCase；同目录默认 `index.tsx` + `index.less`
+- 禁止 `kebab-case`、`snake_case`、中文目录名及 `temp`、`test1` 等临时命名
+
+## 改动原则
+
+- 先读相邻文件，匹配现有导入、别名与风格；不扩大无关改动范围
+- 优先复用 `@guazi-fe/koala-ui`、`@guazi-fe/cross-utils` 与项目内已有封装
+- 状态走 PageStore/Zustand 既有 slice 模式；接口走 `service/` 层，不在组件内散落请求逻辑
+- 样式遵循 BEM 与 Less 模块化；多端差异集中处理，避免三端复制粘贴
+
+## 提交
+
+- commit message 符合仓库 commitlint（如 `feat:`、`fix:`、`refactor:` 等）

@@ -1,0 +1,33 @@
+{
+  "name": "cursor-plugins",
+  "owner": {
+    "name": "Your Name",
+    "email": "plugins@example.com"
+  },
+  "metadata": {
+    "description": "Personal Cursor plugin marketplace",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "create-plugin",
+      "source": "./plugins/create-plugin",
+      "description": "Scaffold and validate new Cursor plugins for marketplace submission",
+      "category": "developer-tools",
+      "tags": ["meta", "authoring", "templates"]
+    },
+    {
+      "name": "bdd-requirement-generator",
+      "source": "./plugins/bdd-requirement-generator",
+      "description": "Convert product requirements into BDD format documents (Given/When/Then)",
+      "tags": ["bdd", "requirements", "documentation"]
+    },
+    {
+      "name": "detail-taro",
+      "source": "./plugins/detail-taro",
+      "description": "Develop Taro product detail pages in detail-taro3 (rules and page-dev workflow)",
+      "category": "developer-tools",
+      "tags": ["taro", "commerce", "detail-page"]
+    }
+  ]
+}

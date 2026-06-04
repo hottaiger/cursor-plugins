@@ -1,0 +1,22 @@
+{
+  "name": "detail-taro",
+  "displayName": "Detail Taro",
+  "version": "1.0.0",
+  "description": "在 detail-taro3 仓库中开发 Taro 商详页的编码规范与工作流指引。",
+  "author": {
+    "name": "Your Name"
+  },
+  "license": "MIT",
+  "keywords": [
+    "taro",
+    "taro3",
+    "detail",
+    "product-detail",
+    "react-native",
+    "multi-platform"
+  ],
+  "category": "developer-tools",
+  "tags": ["taro", "commerce", "detail-page"],
+  "skills": "./skills/",
+  "rules": "./rules/"
+}

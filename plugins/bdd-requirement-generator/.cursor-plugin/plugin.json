@@ -1,0 +1,10 @@
+{
+  "name": "bdd-requirement-generator",
+  "version": "1.0.0",
+  "description": "将产品需求原始描述转换为标准 BDD 格式需求文档。",
+  "author": {
+    "name": "Your Name"
+  },
+  "keywords": ["bdd", "requirements", "given-when-then"],
+  "skills": "./skills/"
+}
