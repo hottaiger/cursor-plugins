@@ -1,0 +1,14 @@
+{
+  "name": "guazi-workflow",
+  "displayName": "Guazi Workflow",
+  "version": "1.0.0",
+  "description": "瓜子内部研发工作流：飞书需求池同步、Jira Changelog 更新。需 guazi-jira-mcp、lark-cli 等内网工具。",
+  "author": {
+    "name": "Guazi FE"
+  },
+  "license": "UNLICENSED",
+  "keywords": ["feishu", "jira", "workflow", "lark"],
+  "category": "developer-tools",
+  "tags": ["internal", "workflow"],
+  "skills": "./skills/"
+}

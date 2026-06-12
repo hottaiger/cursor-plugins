@@ -1,0 +1,14 @@
+{
+  "name": "dev-toolkit",
+  "displayName": "Dev Toolkit",
+  "version": "1.0.0",
+  "description": "瓜子前端通用开发工具：Figma PNG 导出、BDD 需求文档、未使用文件清理、方法 JSDoc。",
+  "author": {
+    "name": "Guazi FE"
+  },
+  "license": "UNLICENSED",
+  "keywords": ["figma", "bdd", "cleanup", "jsdoc"],
+  "category": "developer-tools",
+  "tags": ["tooling", "documentation"],
+  "skills": "./skills/"
+}

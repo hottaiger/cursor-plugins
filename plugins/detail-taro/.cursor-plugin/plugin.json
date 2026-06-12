@@ -1,0 +1,14 @@
+{
+  "name": "detail-taro",
+  "displayName": "Detail Taro",
+  "version": "1.0.0",
+  "description": "detail-taro3 商详页开发规范与工具集：编码规范、Koala UI、cross-utils、图片资源、埋点、单测。",
+  "author": {
+    "name": "Guazi FE"
+  },
+  "license": "UNLICENSED",
+  "keywords": ["taro", "taro3", "detail-taro3", "koala-ui", "cross-utils", "react-native"],
+  "category": "developer-tools",
+  "tags": ["taro", "commerce", "detail-page"],
+  "skills": "./skills/"
+}

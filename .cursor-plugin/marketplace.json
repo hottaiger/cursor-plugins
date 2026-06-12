@@ -1,0 +1,34 @@
+{
+  "name": "guazi-cursor-plugins",
+  "owner": {
+    "name": "Guazi FE",
+    "email": "plugins@guazi.com"
+  },
+  "metadata": {
+    "description": "瓜子前端团队内部 Cursor 插件市场（detail-taro3 商详、开发工具、工作流）",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "detail-taro",
+      "source": "./plugins/detail-taro",
+      "description": "detail-taro3 商详页开发：编码规范、Koala UI、cross-utils、埋点、单测等",
+      "category": "developer-tools",
+      "tags": ["taro", "detail", "react-native", "guazi"]
+    },
+    {
+      "name": "dev-toolkit",
+      "source": "./plugins/dev-toolkit",
+      "description": "通用开发工具：Figma 导出、BDD 需求、死代码清理、JSDoc",
+      "category": "developer-tools",
+      "tags": ["figma", "bdd", "cleanup", "docs"]
+    },
+    {
+      "name": "guazi-workflow",
+      "source": "./plugins/guazi-workflow",
+      "description": "瓜子内部工作流：飞书需求池、Jira Changelog（需内网 MCP）",
+      "category": "developer-tools",
+      "tags": ["feishu", "jira", "workflow", "internal"]
+    }
+  ]
+}

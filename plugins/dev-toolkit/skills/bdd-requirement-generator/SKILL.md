@@ -22,7 +22,7 @@ description: 双向需求文档工具。Mode A：将产品需求转为 BDD 格�
 用户提供以下任意一种或组合：
 
 1. 需求原始文本描述（散文、列表）
-2. Confluence wiki 链接（使用 `mcp_guazi_wiki_get_wiki_page` 工具读取）
+2. 公司内部 wiki 链接（使用已配置的 wiki MCP 工具读取，如 `guazi-wiki` MCP）
 3. 已有的需求文档文件路径
 
 ## 输出
@@ -92,7 +92,7 @@ description: 双向需求文档工具。Mode A：将产品需求转为 BDD 格�
 
 ### 步骤 1：收集需求信息
 
-- 如果用户提供了 wiki 链接，使用 `mcp_guazi_wiki_get_wiki_page` 读取内容
+- 如果用户提供了 wiki 链接，使用已启用的公司 wiki MCP 读取内容（勿硬编码特定 MCP 工具名）
 - 如果用户提供了文本描述，直接解析
 - 如果信息不完整，向用户确认关键细节
 
